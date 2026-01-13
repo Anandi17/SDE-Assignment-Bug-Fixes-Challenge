@@ -11,7 +11,7 @@ export function computeROI(
   ) {
     return null;
   }
-
+  
   const roi = revenue / timeTaken;
   return Number.isFinite(roi) ? Number(roi.toFixed(2)) : null;
 }
